@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.table {
+  width: 800px;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+.tableThead {
+  display: flex;
+  gap: 40px;
+}
+.tableThead_tr {
+  display: flex;
+  gap: 89px;
+}
+
+.tableBody_tr {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.tableBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  gap: 19px;
+  cursor: pointer;
+  padding-left: 7px;
+}
+.li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+  font-weight: 700;
+}
+.tableBody_tb {
+  width: 124px;
+}
+
+.active {
+  background-color: brown;
+  color: aliceblue;
+}
